@@ -5,10 +5,10 @@ export default function About() {
   const [isEditing, setIsEditing] = useState(false);
   const [teamName, setTeamName] = useState('CyberSentinels');
   const [members, setMembers] = useState([
-    { name: 'Aditya Sharma', role: 'Security Heuristics & Engine' },
-    { name: 'Kavya Patel', role: 'Frontend & UI/UX Design' },
-    { name: 'Rahul Verma', role: 'Camera & QR Decoder Pipeline' },
-    { name: 'Sneha Nair', role: 'Threat Research & Testing' }
+    { name: 'Logesh', role: 'Security Heuristics & Engine' },
+    { name: 'Monish Raj', role: 'Frontend & UI/UX Design' },
+    { name: 'Mukeshwar', role: 'Camera & QR Decoder Pipeline' },
+    { name: 'Jaikumar', role: 'Threat Research & Testing' }
   ]);
 
   const handleMemberChange = (index, field, value) => {
