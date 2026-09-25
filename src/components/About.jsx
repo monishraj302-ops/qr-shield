@@ -3,7 +3,7 @@ import { Shield, Award, Users, Code2, Edit2, Check, Sparkles } from 'lucide-reac
 
 export default function About() {
   const [isEditing, setIsEditing] = useState(false);
-  const [teamName, setTeamName] = useState('CyberSentinels');
+  const [teamName, setTeamName] = useState('MindHackers');
   const [members, setMembers] = useState([
     { name: 'Logesh', role: 'Security Heuristics & Engine' },
     { name: 'Monish Raj', role: 'Frontend & UI/UX Design' },
